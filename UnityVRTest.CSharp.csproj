@@ -71,6 +71,11 @@
     <Compile Include="Assets\CSV2Table\Scripts\CsvParser.cs" />
     <Compile Include="Assets\CSV2Table\Scripts\CsvParser2.cs" />
     <Compile Include="Assets\CSV2Table\Scripts\TableCodeGen.cs" />
+    <Compile Include="Assets\MeshChart\SampleMeshChart\CameraWork.cs" />
+    <Compile Include="Assets\MeshChart\Script\BarChart.cs" />
+    <Compile Include="Assets\MeshChart\Script\Chart.cs" />
+    <Compile Include="Assets\MeshChart\Script\ChartFrame.cs" />
+    <Compile Include="Assets\MeshChart\Script\LineChart.cs" />
     <Compile Include="Assets\ProceduralToolkit\ArrayE.cs" />
     <Compile Include="Assets\ProceduralToolkit\CircularList.cs" />
     <Compile Include="Assets\ProceduralToolkit\ColorE.cs" />
@@ -135,7 +140,6 @@
     <Compile Include="Assets\ProceduralToolkit\RandomE.cs" />
     <Compile Include="Assets\ProceduralToolkit\TextureE.cs" />
     <Compile Include="Assets\ProceduralToolkit\Vector2Int.cs" />
-    <Compile Include="Assets\SceneMorphCubes.cs" />
     <Compile Include="Assets\Scripts\ParentFixedJoint.cs" />
     <Compile Include="Assets\Scripts\PickupParent.cs" />
     <Compile Include="Assets\Scripts\Procedural\MengerSponge.cs" />
@@ -146,6 +150,7 @@
     <Compile Include="Assets\Scripts\Procedural\TetrahedronUV.cs" />
     <Compile Include="Assets\Scripts\ProceduralMesh.cs" />
     <Compile Include="Assets\Scripts\SceneCreation.cs" />
+    <Compile Include="Assets\Scripts\SceneMorphCubes.cs" />
     <Compile Include="Assets\Scripts\WardData.cs" />
     <Compile Include="Assets\Scripts\buildChunk.cs" />
     <Compile Include="Assets\Scripts\buildMesh.cs" />
@@ -186,6 +191,11 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MeshChart\Shader\BarChartShader.shader" />
+    <None Include="Assets\MeshChart\Shader\CobwebChartShader.shader" />
+    <None Include="Assets\MeshChart\Shader\CobwebChartSlimShader.shader" />
+    <None Include="Assets\MeshChart\Shader\LineChartShader.shader" />
+    <None Include="Assets\MeshChart\Shader\PieChartShader.shader" />
     <None Include="Assets\ProceduralToolkit\Shaders\Diffuse Vertex Color.shader" />
     <None Include="Assets\ProceduralToolkit\Shaders\Gradient Skybox.shader" />
     <None Include="Assets\ProceduralToolkit\Shaders\Specular Vertex Color.shader" />
