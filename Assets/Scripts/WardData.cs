@@ -5,6 +5,20 @@ using System.Collections.Generic;
 
 public class WardData : MonoBehaviour
 {
+    public TextAsset file;
+
+    void Start()
+    {
+        Load(file);
+        if (file)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Debug.Log(GetAt(i).HouseholdNum);
+            }
+        }
+    }
+
 	public class Row
 	{
 		public string WardNumber;
