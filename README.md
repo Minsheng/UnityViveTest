@@ -14,3 +14,6 @@ If you do not have HTC Vive, you can still run the scene and check it out.
 - use Procedural Toolkit to generate meshes
 - encode attributes of Toronto's census data into the color and the height of cubes
 - add collider and rigibody to each mesh upon creation
+
+![alt text](https://github.com/Minsheng/UnityViveTest/blob/master/vr-census-cubes-1.JPG "Preview 1")
+![alt text](https://github.com/Minsheng/UnityViveTest/blob/master/vr-census-cubes-phy.JPG "Preview 2")
